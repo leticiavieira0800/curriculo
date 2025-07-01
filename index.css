@@ -1,0 +1,56 @@
+body {
+  color: white;
+  background-color: #6e1b54;
+  font-family: arial;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  padding: 20px;
+}
+
+li {
+  border: 5px dashed white;
+  padding: 10px 40px;
+  border-radius: 25px;
+}
+
+li:hover {
+  background-color: #3d0f2d;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  border: 5px solid white;
+}
+
+.centro {
+  text-align: center;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3d0f2d;
+  padding: 20px;
+}
+
+.estrutura {
+  padding: 0px 70px;
+}
